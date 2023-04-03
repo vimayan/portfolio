@@ -1,0 +1,50 @@
+#about{
+    height:100vh;
+}
+
+#name{
+    font-family: 'Lily Script One', cursive;
+    font-size:calc(2vw + 23px);
+
+}
+
+#profession{
+    font-family:fantasy;
+}
+#mystory{
+    font-family: 'La Belle Aurore',cursive;
+    text-align: justify;
+}
+
+
+#contact i{
+    font-size: calc(2vw + 25px);
+    color:burlywood;
+    cursor: pointer;
+   
+ 
+}
+
+
+#contact .hidden{
+  opacity: 0;
+}
+#contact:hover .hidden {
+    opacity: 1;
+   
+  
+}
+
+#deploys .card-footer{
+overflow:auto;
+text-overflow: ellipsis;
+ white-space: nowrap;
+
+}
+#deploys .ticket img{
+height: calc(12em + 8vw );
+}
+
+#deploys .card-text b{
+    cursor: pointer;
+}
