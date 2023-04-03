@@ -6,9 +6,9 @@ import Es6 from "../data/ES6.jpg";
 import NodeJS from "../data/node.png";
 import ReactJS from "../data/react.png";
 import MongoDB from "../data/mongodb.png";
-import Redux from "../data/Redux.png"
+import Redux from "../data/Redux.png";
 import Aws from "../data/Aws.png";
-import Postman from '../data/Postman.png'
+import Postman from "../data/Postman.png";
 import Api from "../data/API-amico.svg";
 
 function TechStack() {
@@ -25,12 +25,12 @@ function TechStack() {
             grind on a regular basis..
           </p>
         </div>
-        <div className="row ms-sm-5  my-4">
-          <div className=" col col-md-4 row gap-2  mx-4 my-4">
-            <div className="col-sm-4 col-md-5 col-lg-4 ">
+        <div className="row ms-sm-5 ps-5  my-4">
+          <div className=" col col-md-4 row gap-2   mx-4 my-4">
+            <div className="col-4 col-sm-4 col-md-5 col-lg-4 ">
               <div className="d-flex flex-column align-items-center gap-2 text-nowrap">
                 <img
-                  className="col-2 col-sm-6 col-md-12 col-lg-8"
+                  className="col-8 col-sm-6 col-md-12 col-lg-8"
                   src={Html}
                   alt="null"
                 />
@@ -38,10 +38,10 @@ function TechStack() {
               </div>
             </div>
 
-            <div className="col-sm-4 col-md-5 col-lg-4">
+            <div className="col-4 col-sm-4 col-md-5 col-lg-4">
               <div className=" d-flex  flex-column align-items-center gap-2 text-nowrap">
                 <img
-                  className="col-2 col-sm-6 col-md-12 col-lg-8"
+                  className="col-8 col-sm-6 col-md-12 col-lg-8"
                   src={Css}
                   alt="null"
                 />
@@ -49,10 +49,10 @@ function TechStack() {
               </div>
             </div>
 
-            <div className="col-sm-4 col-md-5 col-lg-4">
+            <div className=" col-4 col-sm-4 col-md-5 col-lg-4">
               <div className="col d-flex  flex-column align-items-center gap-2 text-nowrap">
                 <img
-                  className="col-2 col-sm-6 col-md-12 col-lg-8 rounded-2 "
+                  className="col-8 col-sm-6 col-md-12 col-lg-8 rounded-2 "
                   src={Es6}
                   alt="null"
                 />
@@ -60,10 +60,10 @@ function TechStack() {
               </div>
             </div>
 
-            <div className="col-sm-4 col-md-5 col-lg-4">
+            <div className="col-4 col-sm-4 col-md-5 col-lg-4">
               <div className="d-flex  flex-column align-items-center gap-2 text-nowrap">
                 <img
-                  className="col-2 col-sm-6 col-md-12 col-lg-8"
+                  className="col-8 col-sm-6 col-md-12 col-lg-8"
                   src={Bootstrap}
                   alt="null"
                 />
@@ -71,10 +71,10 @@ function TechStack() {
               </div>
             </div>
 
-            <div className="col-sm-4 col-md-5 col-lg-4">
+            <div className="col-4 col-sm-4 col-md-5 col-lg-4">
               <div className="col d-flex  flex-column align-items-center gap-2 text-nowrap">
                 <img
-                  className="col-2 col-sm-6 col-md-12 col-lg-8 rounded-2 "
+                  className="col-8 col-sm-6 col-md-12 col-lg-8 rounded-2 "
                   src={NodeJS}
                   alt="null"
                 />
@@ -82,10 +82,10 @@ function TechStack() {
               </div>
             </div>
 
-            <div className="col-sm-4 col-md-5 col-lg-4">
+            <div className="col-4 col-sm-4 col-md-5 col-lg-4">
               <div className="col d-flex  flex-column align-items-center gap-2 text-nowrap">
                 <img
-                  className="col-2 col-sm-6 col-md-12 col-lg-8 rounded-2 "
+                  className="col-8 col-sm-6 col-md-12 col-lg-8 rounded-2 "
                   src={ReactJS}
                   alt="null"
                 />
@@ -93,10 +93,10 @@ function TechStack() {
               </div>
             </div>
 
-            <div className="col-sm-4 col-md-5 col-lg-4">
+            <div className="col-4 col-sm-4 col-md-5 col-lg-4">
               <div className="col d-flex  flex-column align-items-center gap-2 text-nowrap">
                 <img
-                  className="col-2 col-sm-6 col-md-12 col-lg-8 rounded-2 "
+                  className="col-8 col-sm-6 col-md-12 col-lg-8 rounded-2 "
                   src={MongoDB}
                   alt="null"
                 />
@@ -104,10 +104,10 @@ function TechStack() {
               </div>
             </div>
 
-            <div className="col-sm-4 col-md-5 col-lg-4">
+            <div className="col-4 col-sm-4 col-md-5 col-lg-4">
               <div className="col d-flex  flex-column align-items-center gap-2 text-nowrap">
                 <img
-                  className="col-2 col-sm-6 col-md-12 col-lg-8 rounded-2 "
+                  className="col-8 col-sm-6 col-md-12 col-lg-8 rounded-2 "
                   src={Redux}
                   alt="null"
                 />
@@ -115,10 +115,10 @@ function TechStack() {
               </div>
             </div>
 
-            <div className="col-sm-4 col-md-5 col-lg-4">
+            <div className="col-4 col-sm-4 col-md-5 col-lg-4">
               <div className="col d-flex  flex-column align-items-center gap-2 text-nowrap">
                 <img
-                  className="col-2 col-sm-6 col-md-12 col-lg-8 rounded-2 "
+                  className="col-8 col-sm-6 col-md-12 col-lg-8 rounded-2 "
                   src={Postman}
                   alt="null"
                 />
@@ -126,17 +126,16 @@ function TechStack() {
               </div>
             </div>
 
-            <div className="col-sm-4 col-md-5 col-lg-4">
+            <div className="col-4 col-sm-4 col-md-5 col-lg-4">
               <div className="col d-flex  flex-column align-items-center gap-2 text-nowrap">
                 <img
-                  className="col-2 col-sm-6 col-md-12 col-lg-8 rounded-2 "
+                  className="col-8 col-sm-6 col-md-12 col-lg-8 rounded-2 "
                   src={Aws}
                   alt="null"
                 />
                 <b>AWS</b>
               </div>
             </div>
-
           </div>
 
           <div className="col-md-5 d-none d-md-block ms-md-4">
