@@ -20,7 +20,7 @@ function About() {
               <span className=" text-success me-2">VILLAVAN</span>
               <span>MURUGAN</span>
             </div>
-            <span className="mt-2" id="profession">
+            <span  id="profession">
               MEARN stack Developper
             </span>
             <p className="col" id="mystory">

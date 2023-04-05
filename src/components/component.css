@@ -3,16 +3,18 @@
 }
 
 #name{
-    font-family: 'Lily Script One', cursive;
+    font-family: 'Fredericka the Great', cursive;;
     font-size:calc(2vw + 23px);
+    margin-bottom: -10px;
 
 }
 
 #profession{
-    font-family:fantasy;
+    font-family: 'Alkatra', cursive;
+    margin-bottom: 5px;
 }
 #mystory{
-    font-family: 'La Belle Aurore',cursive;
+    font-family: sans-serif;
     text-align: justify;
 }
 
