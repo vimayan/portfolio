@@ -51,7 +51,7 @@ function Deploys() {
               <img src={VegSite} className="card-img-top" alt="..." />
             </a>
             <div className="card-body">
-              <h5 className="card-title">Card title</h5>
+              <h5 className="card-title">Veg Shop</h5>
               <p className="card-text">
                 <b onClick={()=>window.open("https://github.com/vimayan/GUVI-Tasks/tree/main/react-tasks/task-3")} className="me-1 text-primary">Front end</b>
                 <span>ReactJS Bootstrap responsive cart design</span>
@@ -76,7 +76,7 @@ function Deploys() {
               <img src={ClonedApp} className="card-img-top" alt="..." />
             </a>
             <div className="card-body">
-              <h5 className="card-title">Card title</h5>
+              <h5 className="card-title">Copy Cat</h5>
               <p className="card-text text-start">
                 this is my first front end website before joining GUVI using
                 React JS
