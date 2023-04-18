@@ -1,7 +1,4 @@
 import React from "react";
-// import Stepper from "@mui/material/Stepper";
-// import Step from "@mui/material/Step";
-// import StepLabel from "@mui/material/StepLabel";
 import Timeline from '@mui/lab/Timeline';
 import TimelineItem from '@mui/lab/TimelineItem';
 import TimelineSeparator from '@mui/lab/TimelineSeparator';
@@ -15,12 +12,6 @@ import Typography from '@mui/material/Typography';
 import PrecisionManufacturingIcon from '@mui/icons-material/PrecisionManufacturing';
 import Guvi from '../data/guvi.png'
 function About() {
-
-    const steps = [
-        'learning basics',
-        'Create an ad group',
-        'Create an ad',
-      ]
 
 
   return (
@@ -124,21 +115,6 @@ function About() {
     </Timeline>
 
           </div>
-          {/* <div className="row">
-            <Stepper activeStep={2} alternativeLabel>
-              {steps.map((label) => (
-                <Step key={label}>
-                  <StepLabel
-                    sx={{
-                      color: "primary.main",
-                    }}
-                  >
-                    {label}
-                  </StepLabel>
-                </Step>
-              ))}
-            </Stepper>
-          </div> */}
        
         
       </div>
