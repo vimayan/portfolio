@@ -76,7 +76,7 @@ function Deploys() {
               <img src={ClonedApp} className="card-img-top" alt="..." />
             </a>
             <div className="card-body">
-              <h5 className="card-title">Copy Cat</h5>
+              <h5 className="card-title">Cloned</h5>
               <p className="card-text text-start">
                 this is my first front end website before joining GUVI using
                 React JS

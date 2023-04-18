@@ -1,42 +1,92 @@
-#about{
+#home{
     height:100vh;
+    position:absolute;
+    top: 0px;
+    left:0px;
+    right: 0px;
+   
+    
 }
 
-#name{
-    font-family: 'Fredericka the Great', cursive;;
-    font-size:calc(2vw + 23px);
-    margin-bottom: -10px;
+#name,#profession{
+    font-size:calc(2vw + 22px);
 
 }
 
-#profession{
-    font-family: 'Alkatra', cursive;
-    margin-bottom: 5px;
+
+
+
+#wave {
+    animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.1s; /* Change to speed up or slow down */
+    animation-iteration-count: infinite; /* Never stop waving :) */
+    transform-origin: 150% 150%; 
+    transform: rotate(25deg);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+   
+  }
+  
+  @keyframes wave-animation {
+    0% {
+      transform: rotate(0deg);
+    }
+    10% {
+      transform: rotate(14deg);
+    }
+    20% {
+      transform: rotate(-8deg);
+    }
+    30% {
+      transform: rotate(14deg);
+    }
+    40% {
+      transform: rotate(-4deg);
+    }
+    50% {
+      transform: rotate(10deg);
+    }
+    60% {
+      transform: rotate(0deg);
+    } /* Reset for the last half to pause */
+    100% {
+      transform: rotate(0deg);
+    }
 }
+
+
+
 #mystory{
-    font-family: sans-serif;
     text-align: justify;
 }
 
-
-#contact i{
-    font-size: calc(2vw + 25px);
-    color:burlywood;
-    cursor: pointer;
-   
- 
+#about{
+    position: absolute;
+    
+    left: 0px;
+    right: 0px;
 }
 
-
-#contact .hidden{
-  opacity: 0;
-}
-#contact:hover .hidden {
-    opacity: 1;
-   
+#techstack{
+    position: absolute;
+    left: 0px;
+    right: 0px;
   
+
 }
 
+#techstack #icons img:hover{
+    cursor: pointer;
+    scale: 1.5;
+
+   
+}
+
+
+#deploys{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+}
 #deploys .card-footer{
 overflow:auto;
 text-overflow: ellipsis;
@@ -49,4 +99,66 @@ height: calc(12em + 8vw );
 
 #deploys .card-text b{
     cursor: pointer;
+
 }
+#footer {
+    position: absolute;   
+    padding-top: 10px;
+    padding-bottom: 8px;
+    
+  }
+
+@media screen and (min-width: 800px) {
+    #about {
+      top:850px
+    }
+    #techstack{
+        top:1700px;
+    }
+    #deploys{
+       
+        top: 2400px;
+       
+    }
+    #footer{
+        top: 3150px;
+    }
+  }
+  
+
+
+  @media screen and (min-width: 576px) and (max-width:800px) {
+    #about {
+      top:850px
+    }
+    #techstack{
+        top:2000px;
+      
+    }
+    #deploys{
+       
+        top: 2540px;
+       
+    }
+    #footer{
+        top: 3250px;
+    }
+  }
+
+  @media screen and (max-width:576px) {
+    #about {
+      top:850px
+    }
+    #techstack{
+        top:1950px;
+      
+    }
+    #deploys{
+       
+        top: 2540px;
+       
+    }
+    #footer{
+        top: 4300px;
+    }
+  }

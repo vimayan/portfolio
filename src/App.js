@@ -1,19 +1,23 @@
 import "./App.css";
 import "./components/component.css";
-import About from "./components/about";
+
 import TechStack from "./components/techStack";
 import Guider from "./components/guider";
-import Contact from "./components/contact";
 import Deploys from "./components/deploys";
+import Home from "./components/home";
+import About from "./components/about";
+import Footer from "./components/footer";
 
 function App() {
   return (
     <div className="App">
-      <About />
+      <Home />
+      <About/>
       <TechStack />
       <Guider />
       <Deploys />
-      <Contact />
+      <Footer/>
+      
     </div>
   );
 }
