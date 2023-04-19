@@ -14,6 +14,7 @@ import Guvi from '../data/guvi.png'
 function About() {
 
 
+
   return (
     <>
       <div className="container" id="about">
@@ -115,6 +116,7 @@ function About() {
     </Timeline>
 
           </div>
+
        
         
       </div>

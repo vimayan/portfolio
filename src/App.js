@@ -7,6 +7,7 @@ import Deploys from "./components/deploys";
 import Home from "./components/home";
 import About from "./components/about";
 import Footer from "./components/footer";
+import GitHub from "./components/gitHub";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <TechStack />
       <Guider />
       <Deploys />
+      <GitHub/>
       <Footer/>
       
     </div>

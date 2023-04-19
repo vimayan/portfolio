@@ -4,27 +4,26 @@ import Particle from "./particle";
 import Type from "./type";
 import Coder2 from "../data/Developer activity-bro.svg";
 import Stack from "@mui/material/Stack";
-import EmailIcon from '@mui/icons-material/Email';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import NewspaperIcon from '@mui/icons-material/Newspaper';
-import Fab from '@mui/material/Fab';
+import EmailIcon from "@mui/icons-material/Email";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import NewspaperIcon from "@mui/icons-material/Newspaper";
+import Fab from "@mui/material/Fab";
 
 function Home() {
-  const openWindow = (page)=> window.open(page)
+  const openWindow = (page) => window.open(page);
 
   return (
     <>
       <Particle />
       <div className="container" id="home">
-        <div className="row h-100 ">
+        <div className="row ">
           <img
             className="col-7 col-md-6 p-0  d-lg-none mx-auto "
             src={Coder}
             alt="null"
           />
-          <div className="col-10 col-sm-10 col-md-10 col-lg-6 my-md-auto d-flex flex-column mx-auto text-white">
-            
+          <div className="col col-sm-10 col-md-10 col-lg-7 my-md-auto d-flex flex-column mx-auto text-white">
             <div className=" d-flex fs-4 align-items-center ">
               Hey Folks!
               <span className="fs-1 me-2" id="wave">
@@ -53,27 +52,44 @@ function Home() {
               <span className="fs-5"> Eager to meet my Team. </span>
             </p>
             <div id="resume">
-             
-              <Stack direction="row" spacing={2} sx={{alignItems:"center"}} >
-
-              <Fab color="primary" >
-                  <GitHubIcon onClick={()=>openWindow("https://github.com/vimayan")} className="fa-brands fa-github"/>
-                  </Fab>
-
-                  <Fab color="secondary" onClick={()=>openWindow("https://www.linkedin.com/in/villavan-eng2016/")}>
-                  <LinkedInIcon/>
-                  </Fab>
-               
-              
-               
-                  <Fab>
-                <a href="mailto:joblessdesks@gmail.com?body=My custom mail body"> <EmailIcon/></a>
+              <Stack
+                direction="row"
+                spacing={{ sm: 1, md: 2 }}
+                sx={{ alignItems: "center" }}
+              >
+                <Fab color="primary">
+                  <GitHubIcon
+                    onClick={() => openWindow("https://github.com/vimayan")}
+                    className="fa-brands fa-github"
+                  />
                 </Fab>
-                <Fab variant="extended" onClick={()=>openWindow("https://www.canva.com/design/DAFdYATzWR0/sBSQGhKzzz5xn9vlgJpXiA/view?utm_content=DAFdYATzWR0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink")}>
-        <NewspaperIcon sx={{ mr: 1}}   />
-        Resume
-      </Fab>
-               
+
+                <Fab
+                  color="secondary"
+                  onClick={() =>
+                    openWindow("https://www.linkedin.com/in/villavan-eng2016/")
+                  }
+                >
+                  <LinkedInIcon />
+                </Fab>
+
+                <Fab>
+                  <a href="mailto:joblessdesks@gmail.com?body=My custom mail body">
+                    {" "}
+                    <EmailIcon />
+                  </a>
+                </Fab>
+                <Fab
+                  variant="extended"
+                  onClick={() =>
+                    openWindow(
+                      "https://www.canva.com/design/DAFdYATzWR0/sBSQGhKzzz5xn9vlgJpXiA/view?utm_content=DAFdYATzWR0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+                    )
+                  }
+                >
+                  <NewspaperIcon sx={{ mr: 1 }} />
+                  Resume
+                </Fab>
               </Stack>
             </div>
           </div>

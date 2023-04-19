@@ -22,7 +22,7 @@ function Deploys() {
             </a>
             <div className="card-body">
               <h5 className="card-title">Ticket Booking</h5>
-              <p class="card-text">
+              <p className="card-text">
                 <b  onClick={()=>window.open("https://github.com/vimayan/guvi-hackathon2-frontend")} className="me-1 text-primary">Front end</b>
                 <span>ReactJS React-router-Dom Redux Formik Yup Bootstrap</span>
                 <br />

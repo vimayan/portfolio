@@ -1,5 +1,4 @@
 #home{
-    height:100vh;
     position:absolute;
     top: 0px;
     left:0px;
@@ -101,33 +100,66 @@ height: calc(12em + 8vw );
     cursor: pointer;
 
 }
+
+#github{
+  position: absolute;
+  left: 0px;
+  right: 0px;
+}
 #footer {
-    position: absolute;   
+    position: absolute; 
     padding-top: 10px;
     padding-bottom: 8px;
     
   }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 992px) {
+  #home{
+    margin-top: 15vh;
+  }
     #about {
-      top:850px
+      top:950px
     }
     #techstack{
         top:1700px;
     }
     #deploys{
        
-        top: 2400px;
-       
+        top: 2400px;   
+    }
+    #github{
+      top:3200px
     }
     #footer{
-        top: 3150px;
+        top: 3550px;
     }
+
   }
   
 
+  @media screen and (min-width: 768px) and (max-width:992px) {
+      #about {
+        top:950px
+      }
+      #techstack{
+          top:1700px;
+      }
+      #deploys{
+         
+          top: 2400px;   
+      }
+      #github{
+        top:3200px
+      }
+      #footer{
+          top: 3450px;
+      }
 
-  @media screen and (min-width: 576px) and (max-width:800px) {
+  }
+
+
+
+  @media screen and (min-width: 576px) and (max-width:768px) {
     #about {
       top:850px
     }
@@ -140,25 +172,53 @@ height: calc(12em + 8vw );
         top: 2540px;
        
     }
-    #footer{
-        top: 3250px;
+    #github{
+      top: 3350px;
     }
+    #footer{
+        top: 3600px;
+    }
+
   }
 
-  @media screen and (max-width:576px) {
+  @media screen and (max-width:576px) and (min-width:400px) {
     #about {
-      top:850px
+      top:700px
     }
     #techstack{
-        top:1950px;
+        top:2050px;
       
     }
     #deploys{
        
-        top: 2540px;
+        top: 2650px;
        
     }
+    #github{
+      top: 4400px;
+    }
     #footer{
-        top: 4300px;
+        top: 4630px;
+    }
+  }
+
+  @media screen and (max-width:400px) {
+    #about {
+      top:750px
+    }
+    #techstack{
+        top:2500px;
+      
+    }
+    #deploys{
+       
+        top: 2950px;
+       
+    }
+    #github{
+      top: 4600px;
+    }
+    #footer{
+        top: 4850px;
     }
   }
