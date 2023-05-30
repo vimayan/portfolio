@@ -89,7 +89,7 @@ function Deploys() {
                   )}
                 </p>
                 <p className="text">
-                  <b className="me-2 badge bg-primary">Launch site</b>
+                  <b className="me-2 badge bg-primary">Live Site</b>
                   <a href={site.launch}>
                     <LaunchIcon fontSize="large" sx={site.size} />
                   </a>
