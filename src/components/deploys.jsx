@@ -72,11 +72,7 @@ function Deploys() {
                   <GitHubIcon
                     fontSize="large"
                     sx={site.size}
-                    onClick={() =>
-                      window.open(
-                        "https://github.com/vimayan/guvi-hackathon2-frontend"
-                      )
-                    }
+                    onClick={() => window.open(site.front)}
                   />
                   <br />
                   {site.back ? (
@@ -85,11 +81,7 @@ function Deploys() {
                       <GitHubIcon
                         fontSize="large"
                         sx={site.size}
-                        onClick={() =>
-                          window.open(
-                            "https://github.com/vimayan/guvi-hackathon2-backend"
-                          )
-                        }
+                        onClick={() => window.open(site.back)}
                       />
                     </>
                   ) : (
