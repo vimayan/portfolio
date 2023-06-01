@@ -68,29 +68,24 @@ function Deploys() {
               <img src={site.img} className="img-fluid h-100" alt="..." />
               <div className="icons">
                 <p className="text">
-                  <b className="me-2 badge bg-primary">Front end</b>
-                  <GitHubIcon
-                    fontSize="large"
-                    sx={site.size}
-                    onClick={() => window.open(site.front)}
-                  />
+                  <span onClick={() => window.open(site.front)}>
+                    <b className="me-2 badge bg-primary">Front end</b>
+                    <GitHubIcon fontSize="large" sx={site.size} />
+                  </span>
+
                   <br />
                   {site.back ? (
-                    <>
+                    <span onClick={() => window.open(site.back)}>
                       <b className="me-2 badge bg-primary">Back end</b>
-                      <GitHubIcon
-                        fontSize="large"
-                        sx={site.size}
-                        onClick={() => window.open(site.back)}
-                      />
-                    </>
+                      <GitHubIcon fontSize="large" sx={site.size} />
+                    </span>
                   ) : (
                     <></>
                   )}
                 </p>
                 <p className="text">
-                  <b className="me-2 badge bg-primary">Live Site</b>
                   <a href={site.launch}>
+                    <b className="me-2 badge bg-primary">Live Site</b>
                     <LaunchIcon fontSize="large" sx={site.size} />
                   </a>
                 </p>
