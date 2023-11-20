@@ -74,7 +74,7 @@ function Home() {
                 </Fab>
 
                 <Fab>
-                  <a href="mailto:joblessdesks@gmail.com?body=My custom mail body">
+                  <a href="mailto:vimalbe12@gmail.com?body=My custom mail body">
                     {" "}
                     <EmailIcon />
                   </a>
