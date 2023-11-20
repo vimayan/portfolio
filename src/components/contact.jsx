@@ -21,7 +21,7 @@ function Contact() {
            <div className="position-relative bottom-50 d-flex justify-content-center gap-3">
             <i onClick={()=>openWindow("https://www.linkedin.com/in/villavan-eng2016/")} className="fa-brands fa-linkedin"></i>
             <i onClick={()=>openWindow("https://github.com/vimayan")} className="fa-brands fa-github"></i>
-         <i  className="fa-solid fa-envelope">   <a href="mailto:joblessdesks@gmail.com?body=My custom mail body">  </a>
+         <i  className="fa-solid fa-envelope">   <a href="mailto:vimalbe12@gmail.com?body=My custom mail body">  </a>
            </i>
            </div>
             </div>
