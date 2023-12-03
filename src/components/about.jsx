@@ -44,7 +44,7 @@ function About() {
                   Manufacturnig Engineer
                 </Typography>
                 <Typography>
-                  I was an vmc programmer for siemens and mitsubishi controller.{" "}
+                  I was an vmc programmer.{" "}
                 </Typography>
               </TimelineContent>
             </TimelineItem>
