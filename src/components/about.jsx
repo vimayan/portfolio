@@ -65,9 +65,12 @@ function About() {
                 </Typography>
                 <Typography>
                   {" "}
-                  I kind of felt missing somthing on my work, so i just took a
-                  break , and did lot of search, Some how learning the
-                  JavaScript makes me surprise more
+                  After working as VMC programmer, I took a deliberate break with
+                  Reassess my career goals and personal interests, During the
+                  Break, I dedicated myself to self-development, I chose the
+                  A career that matches to skills like
+                  Analysing, reporting, Attention to Details, problem solving, and
+                  progrmming that leads software programmer!
                 </Typography>
               </TimelineContent>
             </TimelineItem>
@@ -84,10 +87,11 @@ function About() {
                   Code
                 </Typography>
                 <Typography>
-                  I had been learning JavaScript with a little knowledge and
-                  information I had . I was working on coding tutorials and
-                  debugging and , DOM manipulation. Then I had few interviews, i
-                  got failed!
+                  "Recognizing that I was a misfit in my previous work
+                  environment, I took a proactive approach to align my career
+                  with my strengths. I made a conscious decision to enter the
+                  software development field, where my problem-solving abilities
+                  could thrive."
                 </Typography>
               </TimelineContent>
             </TimelineItem>
@@ -109,9 +113,12 @@ function About() {
                   GUVI
                 </Typography>
                 <Typography>
-                  I met guvi then i planned to improve developer skill, so I had
-                  enrolled the Full Stack Developer course, now i am keen to use
-                  my skills and shine,
+                  I met guvi, then I planned to improve progrmming skill, so I
+                  enrolled myself in Full Stack Developer course, "I am
+                  genuinely passionate about my transition to software
+                  programming. The challenges and problem-solving aspects of
+                  programming resonate with my strengths and personal interests,
+                  making it a fulfilling and purposeful career choice."
                 </Typography>
               </TimelineContent>
             </TimelineItem>
