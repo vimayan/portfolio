@@ -65,10 +65,10 @@ function About() {
                 </Typography>
                 <Typography>
                   {" "}
-                  After working as VMC programmer, I took a deliberate break with
+                  After working as VMC programmer, I took a deliberate break to
                   Reassess my career goals and personal interests, During the
-                  Break, I dedicated myself to self-development, I chose the
-                  A career that matches to skills like
+                  Break, I dedicated myself to self-development, I chose
+                  A career that matches to my skills like
                   Analysing, reporting, Attention to Details, problem solving, and
                   progrmming that leads software programmer!
                 </Typography>
