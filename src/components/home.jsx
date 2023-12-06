@@ -42,9 +42,9 @@ function Home() {
             </div>
 
             <p className="col mt-5" id="mystory">
-              I'm a Fullstack developer who love to code.
+              I'm a Fullstack developer, who love to code.
               <p>
-                I currently connect with WEB apps by{" "}
+                currently I connect WEB apps with{" "}
                 <b className=" me-2  text-success">
                   ECMAScript6,ReactJS, NodeJS,EpressJS,MongoDB.
                 </b>

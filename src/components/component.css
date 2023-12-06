@@ -157,10 +157,10 @@
     top: 850px;
   }
   #techstack {
-    top: 2250px;
+    top: 2050px;
   }
   #deploys {
-    top: 2800px;
+    top: 2750px;
   }
   #github {
     top: 5450px;
@@ -170,38 +170,38 @@
   }
 }
 
-@media screen and (max-width: 576px) and (min-width: 400px) {
+@media screen and (max-width: 576px) and (min-width: 450px) {
   #about {
     top: 800px;
   }
   #techstack {
-    top: 2550px;
+    top: 2150px;
   }
   #deploys {
-    top: 3150px;
+    top: 3000px;
   }
   #github {
     top: 5650px;
   }
   #footer {
-    top: 5950px;
+    top: 5850px;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   #about {
     top: 750px;
   }
   #techstack {
-    top: 3250px;
+    top: 2200px;
   }
   #deploys {
-    top: 3750px;
+    top: 2850px;
   }
   #github {
-    top: 5600px;
+    top: 5000px;
   }
   #footer {
-    top: 5850px;
+    top:5300px;
   }
 }

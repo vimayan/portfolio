@@ -39,15 +39,42 @@ function About() {
                 </TimelineDot>
                 <TimelineConnector />
               </TimelineSeparator>
-              <TimelineContent sx={{ py: "12px", px: 2 }}>
+              <TimelineContent
+                sx={{
+                  py: "12px",
+                  px: 2,
+                  display: {
+                    xs: "none",
+                    sm: "inline-block",
+                  },
+                }}
+              >
                 <Typography variant="h6" component="span">
                   Manufacturnig Engineer
                 </Typography>
-                <Typography>
-                  I was an vmc programmer.{" "}
-                </Typography>
+                <Typography>I was an vmc programmer. </Typography>
               </TimelineContent>
+              <TimelineContent sx={{ display: { sm: "none" } }} />
             </TimelineItem>
+
+            <TimelineContent
+              sx={{
+                py: "5px",
+                px: 2,
+                display: {
+                  xs: "inline-block",
+                  sm: "none",
+                },
+                borderTop: "1px solid white",
+                borderBottom: "1px solid white",
+              }}
+            >
+              <Typography variant="h6" component="span">
+                Manufacturnig Engineer
+              </Typography>
+              <Typography>I was an vmc programmer. </Typography>
+            </TimelineContent>
+
             <TimelineItem>
               <TimelineOppositeContent sx={{ m: "auto 0" }} variant="body2">
                 2022
@@ -59,7 +86,16 @@ function About() {
                 </TimelineDot>
                 <TimelineConnector />
               </TimelineSeparator>
-              <TimelineContent sx={{ py: "12px", px: 2 }}>
+              <TimelineContent
+                sx={{
+                  py: "12px",
+                  px: 2,
+                  display: {
+                    xs: "none",
+                    sm: "inline-block",
+                  },
+                }}
+              >
                 <Typography variant="h6" component="span">
                   Career Change
                 </Typography>
@@ -67,13 +103,43 @@ function About() {
                   {" "}
                   After working as VMC programmer, I took a deliberate break to
                   Reassess my career goals and personal interests, During the
-                  Break, I dedicated myself to self-development, I chose
-                  A career that matches to my skills like
-                  Analysing, reporting, Attention to Details, problem solving, and
-                  progrmming that leads software programmer!
+                  Break, I dedicated myself to self-development, I chose A
+                  career that matches to my skills like Analysing, reporting,
+                  Attention to Details, problem solving, and progrmming that
+                  leads software programmer!
                 </Typography>
               </TimelineContent>
+              <TimelineContent
+                sx={{ py: "12px", px: 2, display: { sm: "none" } }}
+              />
             </TimelineItem>
+
+            <TimelineContent
+              sx={{
+                py: "12px",
+                px: 2,
+                display: {
+                  xs: "inline-block",
+                  sm: "none",
+                },
+                borderTop: "1px solid white",
+                borderBottom: "1px solid white",
+              }}
+            >
+              <Typography variant="h6" component="span">
+                Career Change
+              </Typography>
+              <Typography>
+                {" "}
+                After working as VMC programmer, I took a deliberate break to
+                Reassess my career goals and personal interests, During the
+                Break, I dedicated myself to self-development, I chose A career
+                that matches to my skills like Analysing, reporting, Attention
+                to Details, problem solving, and progrmming that leads software
+                programmer!
+              </Typography>
+            </TimelineContent>
+
             <TimelineItem>
               <TimelineSeparator>
                 <TimelineConnector />
@@ -82,7 +148,13 @@ function About() {
                 </TimelineDot>
                 <TimelineConnector sx={{ bgcolor: "secondary.main" }} />
               </TimelineSeparator>
-              <TimelineContent sx={{ py: "12px", px: 2 }}>
+              <TimelineContent
+                sx={{
+                  py: "12px",
+                  px: 2,
+                  display: { xs: "none", sm: "inline-block" },
+                }}
+              >
                 <Typography variant="h6" component="span">
                   Code
                 </Typography>
@@ -94,7 +166,27 @@ function About() {
                   could thrive."
                 </Typography>
               </TimelineContent>
+              <TimelineContent sx={{ display: { sm: "none" } }} />
             </TimelineItem>
+
+            <TimelineContent
+              sx={{
+                py: "12px",
+                px: 2,
+                display: { sm: "none" },
+                borderTop: "1px solid white",
+                borderBottom: "1px solid white",
+              }}
+            >
+              <Typography>
+                "Recognizing that I was a misfit in my previous work
+                environment, I took a proactive approach to align my career with
+                my strengths. I made a conscious decision to enter the software
+                development field, where my problem-solving abilities could
+                thrive."
+              </Typography>
+            </TimelineContent>
+
             <TimelineItem>
               <TimelineSeparator>
                 <TimelineConnector sx={{ bgcolor: "secondary.main" }} />
@@ -108,7 +200,13 @@ function About() {
                 </TimelineDot>
                 <TimelineConnector />
               </TimelineSeparator>
-              <TimelineContent sx={{ py: "12px", px: 2 }}>
+              <TimelineContent
+                sx={{
+                  py: "12px",
+                  px: 2,
+                  display: { xs: "none", sm: "inline-block" },
+                }}
+              >
                 <Typography variant="h6" component="span">
                   GUVI
                 </Typography>
@@ -121,7 +219,30 @@ function About() {
                   making it a fulfilling and purposeful career choice."
                 </Typography>
               </TimelineContent>
+              <TimelineContent sx={{ display: { sm: "none" } }} />
             </TimelineItem>
+
+            <TimelineContent
+              sx={{
+                py: "12px",
+                px: 2,
+                display: { xs: "inline-block", sm: "none" },
+                borderTop: "1px solid white",
+                borderBottom: "1px solid white",
+              }}
+            >
+              <Typography variant="h6" component="span">
+                GUVI
+              </Typography>
+              <Typography>
+                I met guvi, then I planned to improve progrmming skill, so I
+                enrolled myself in Full Stack Developer course, "I am genuinely
+                passionate about my transition to software programming. The
+                challenges and problem-solving aspects of programming resonate
+                with my strengths and personal interests, making it a fulfilling
+                and purposeful career choice."
+              </Typography>
+            </TimelineContent>
           </Timeline>
         </div>
       </div>
