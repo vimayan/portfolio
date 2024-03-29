@@ -159,11 +159,9 @@ function About() {
                   Code
                 </Typography>
                 <Typography>
-                  "Recognizing that I was a misfit in my previous work
-                  environment, I took a proactive approach to align my career
+                  "I realized that the evolution of Technologies and influence on every industries,  I took a proactive approach to align my career
                   with my strengths. I made a conscious decision to enter the
-                  software development field, where my problem-solving abilities
-                  could thrive."
+                  software development field, As I see my skill sets are helpful to  understand  the  logical thinking of programming languages."
                 </Typography>
               </TimelineContent>
               <TimelineContent sx={{ display: { sm: "none" } }} />
@@ -179,11 +177,9 @@ function About() {
               }}
             >
               <Typography>
-                "Recognizing that I was a misfit in my previous work
-                environment, I took a proactive approach to align my career with
-                my strengths. I made a conscious decision to enter the software
-                development field, where my problem-solving abilities could
-                thrive."
+              "I realized that the evolution of Technologies and influence on every industries,  I took a proactive approach to align my career
+                  with my strengths. I made a conscious decision to enter the
+                  software development field, As I see my skill sets are helpful to  understand  the  logical thinking of programming languages."
               </Typography>
             </TimelineContent>
 
