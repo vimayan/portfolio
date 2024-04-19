@@ -1,6 +1,7 @@
 import React from "react";
 import Ticket from "../data/Ticket.jpg";
-import VegSite from "../data/vegsite.jpeg";
+// import VegSite from "../data/vegsite.jpeg";
+import ShoutOut from "../data/ShouOut.png";
 import ClonedApp from "../data/ClonedApp.jpeg";
 import Fitness from "../data/fitness-logger.jpeg";
 import Shortner from "../data/shortner.png";
@@ -15,6 +16,13 @@ function Deploys() {
       front: "https://github.com/vimayan/Fitness_Logger_frontend",
       back: "https://github.com/vimayan/guvi-hackathon2-backend",
       launch: "https://fitness-loggerl-villavan.netlify.app",
+      size: { color: "black", marginX: "3px" },
+    },
+    {
+      img: ShoutOut,
+      front: "https://github.com/vimayan/shoutout/tree/main/chatbox",
+      back: "https://github.com/vimayan/shoutout/tree/main/chatserver",
+      launch: "https://gossip-shoutouts.netlify.app/",
       size: { color: "black", marginX: "3px" },
     },
     {
@@ -38,13 +46,13 @@ function Deploys() {
       launch: "https://spacex-lazylode.netlify.app",
       size: { color: "#e3f2fd", marginX: "3px" },
     },
-    {
-      img: VegSite,
-      front:
-        "https://github.com/vimayan/GUVI-Tasks/tree/main/react-tasks/task-3",
-      launch: "https://villavan-react-task3.netlify.app",
-      size: { color: "black", marginX: "3px" },
-    },
+    // {
+    //   img: VegSite,
+    //   front:
+    //     "https://github.com/vimayan/GUVI-Tasks/tree/main/react-tasks/task-3",
+    //   launch: "https://villavan-react-task3.netlify.app",
+    //   size: { color: "black", marginX: "3px" },
+    // },
     {
       img: ClonedApp,
       front: "https://github.com/vimayan/job-clone",
@@ -68,23 +76,23 @@ function Deploys() {
               <img src={site.img} className="img-fluid h-100" alt="..." />
               <div className="icons">
                 <p className="text">
-                  <span onClick={() => window.open(site.front)}>
+                  <a  href={site.front}  target="_blank" rel="noopener">
                     <b className="me-2 badge bg-primary">Front end</b>
                     <GitHubIcon fontSize="large" sx={site.size} />
-                  </span>
+                  </a>
 
                   <br />
                   {site.back ? (
-                    <span onClick={() => window.open(site.back)}>
+                    <a  href={site.back}  target="_blank" rel="noopener">
                       <b className="me-2 badge bg-primary">Back end</b>
                       <GitHubIcon fontSize="large" sx={site.size} />
-                    </span>
+                    </a>
                   ) : (
                     <></>
                   )}
                 </p>
                 <p className="text">
-                  <a href={site.launch}>
+                  <a  href={site.launch}  target="_blank" rel="noopener">
                     <b className="me-2 badge bg-primary">Live Site</b>
                     <LaunchIcon fontSize="large" sx={site.size} />
                   </a>
