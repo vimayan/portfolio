@@ -12,6 +12,8 @@ import LaunchIcon from "@mui/icons-material/Launch";
 function Deploys() {
   const sites = [
     {
+      name:'Fitness Logger',
+      text:"badge text-decoration-underline fs-4",
       img: Fitness,
       front: "https://github.com/vimayan/Fitness_Logger_frontend",
       back: "https://github.com/vimayan/guvi-hackathon2-backend",
@@ -19,6 +21,8 @@ function Deploys() {
       size: { color: "black", marginX: "3px" },
     },
     {
+      name:'ShoutOut',
+      text:"badge text-decoration-underline fs-4",
       img: ShoutOut,
       front: "https://github.com/vimayan/shoutout/tree/main/chatbox",
       back: "https://github.com/vimayan/shoutout/tree/main/chatserver",
@@ -26,6 +30,8 @@ function Deploys() {
       size: { color: "black", marginX: "3px" },
     },
     {
+      name:'Ticket New',
+      text:"badge text-decoration-underline fs-4",
       img: Ticket,
       front: "https://github.com/vimayan/guvi-hackathon2-frontend",
       back: "https://github.com/vimayan/guvi-hackathon2-backend",
@@ -33,6 +39,8 @@ function Deploys() {
       size: { color: "black", marginX: "3px" },
     },
     {
+      name:'Tiny Url',      
+      text:"badge text-black text-decoration-underline fs-4",
       img: Shortner,
       front:
         "https://github.com/vimayan/GUVI-Tasks/tree/main/url-shortner/client",
@@ -41,6 +49,8 @@ function Deploys() {
       size: { color: "black", marginX: "3px" },
     },
     {
+      name:'SpaceX-clone',      
+      text:"badge text-decoration-underline fs-4",
       img: SpaceX,
       front: "https://github.com/vimayan/spacex-clone",
       launch: "https://spacex-lazylode.netlify.app",
@@ -54,6 +64,8 @@ function Deploys() {
     //   size: { color: "black", marginX: "3px" },
     // },
     {
+      name:"Inetriors-clone",
+      text:"badge  text-decoration-underline fs-4",
       img: ClonedApp,
       front: "https://github.com/vimayan/job-clone",
       launch: "https://villavan-react-training.netlify.app",
@@ -75,6 +87,7 @@ function Deploys() {
             <div key={index} className="col-12 col-md-4 p-0 sites">
               <img src={site.img} className="img-fluid h-100" alt="..." />
               <div className="icons">
+              <h4 className={site.text}>{site.name} </h4>
                 <p className="text">
                   <a  href={site.front}  target="_blank" rel="noopener">
                     <b className="me-2 badge bg-primary">Front end</b>
