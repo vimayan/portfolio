@@ -6,11 +6,20 @@ import ClonedApp from "../data/ClonedApp.jpeg";
 import Fitness from "../data/fitness-logger.jpeg";
 import Shortner from "../data/shortner.png";
 import SpaceX from "../data/spacex.png";
+import Warehouse from "../data/warehouse.png";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LaunchIcon from "@mui/icons-material/Launch";
 
 function Deploys() {
   const sites = [
+
+    {
+      name:'Warehouse',  
+      text:"badge text-dark text-decoration-underline fs-4",
+      img: Warehouse, 
+      launch: "http://ec2-3-26-28-162.ap-southeast-2.compute.amazonaws.com:63225/login",
+      size: { color: "black", marginX: "3px" },
+    },
     {
       name:'Fitness Logger',
       text:"badge text-decoration-underline fs-4",
@@ -20,15 +29,8 @@ function Deploys() {
       launch: "https://fitness-loggerl-villavan.netlify.app",
       size: { color: "black", marginX: "3px" },
     },
-    {
-      name:'ShoutOut',
-      text:"badge text-decoration-underline fs-4",
-      img: ShoutOut,
-      front: "https://github.com/vimayan/shoutout/tree/main/chatbox",
-      back: "https://github.com/vimayan/shoutout/tree/main/chatserver",
-      launch: "https://gossip-shoutouts.netlify.app/",
-      size: { color: "black", marginX: "3px" },
-    },
+
+   
     {
       name:'Ticket New',
       text:"badge text-decoration-underline fs-4",
@@ -38,16 +40,27 @@ function Deploys() {
       launch: "https://guvi-hackathon2-frontend-villavan.netlify.app",
       size: { color: "black", marginX: "3px" },
     },
+    // {
+    //   name:'Tiny Url',      
+    //   text:"badge text-black text-decoration-underline fs-4",
+    //   img: Shortner,
+    //   front:
+    //     "https://github.com/vimayan/GUVI-Tasks/tree/main/url-shortner/client",
+    //   back: "https://github.com/vimayan/GUVI-Tasks/tree/main/url-shortner/server",
+    //   launch: "https://tinyshortner.netlify.app",
+    //   size: { color: "black", marginX: "3px" },
+    // },
+   
     {
-      name:'Tiny Url',      
-      text:"badge text-black text-decoration-underline fs-4",
-      img: Shortner,
-      front:
-        "https://github.com/vimayan/GUVI-Tasks/tree/main/url-shortner/client",
-      back: "https://github.com/vimayan/GUVI-Tasks/tree/main/url-shortner/server",
-      launch: "https://tinyshortner.netlify.app",
+      name:'ShoutOut',
+      text:"badge text-decoration-underline fs-4",
+      img: ShoutOut,
+      front: "https://github.com/vimayan/shoutout/tree/main/chatbox",
+      back: "https://github.com/vimayan/shoutout/tree/main/chatserver",
+      launch: "https://gossip-shoutouts.netlify.app/",
       size: { color: "black", marginX: "3px" },
     },
+    
     {
       name:'SpaceX-clone',      
       text:"badge text-decoration-underline fs-4",
@@ -89,10 +102,10 @@ function Deploys() {
               <div className="icons">
               <h4 className={site.text}>{site.name} </h4>
                 <p className="text">
-                  <a  href={site.front}  target="_blank" rel="noopener">
+                 {site.front? <a  href={site.front}  target="_blank" rel="noopener">
                     <b className="me-2 badge bg-primary">Front end</b>
                     <GitHubIcon fontSize="large" sx={site.size} />
-                  </a>
+                  </a>:<></>}
 
                   <br />
                   {site.back ? (

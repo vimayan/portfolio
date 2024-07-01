@@ -10,6 +10,8 @@ import Redux from "../data/Redux.png";
 import Aws from "../data/Aws.png";
 import Postman from "../data/Postman.png";
 import Api from "../data/API-amico.svg";
+import Php from "../data/php.png";
+import Laravel from "../data/Laravel-1.jpg";
 
 function TechStack() {
   return (
@@ -108,6 +110,20 @@ function TechStack() {
             <img
                   className="col-8 col-sm-6 col-md-12 col-lg-8 rounded-2 "
                   src={Aws}
+                  alt="null"
+                />
+            </div>
+            <div className="col-4 col-sm-4 col-md-5 col-lg-4">
+            <img
+                  className="col-8 col-sm-6 col-md-12 col-lg-8 rounded-2 "
+                  src={Php}
+                  alt="null"
+                />
+            </div>
+            <div className="col-4 col-sm-4 col-md-5 col-lg-4">
+            <img
+                  className="col-8 col-sm-6 col-md-12 col-lg-8 rounded-2 "
+                  src={Laravel}
                   alt="null"
                 />
             </div>
