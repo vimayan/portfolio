@@ -1,6 +1,5 @@
 import React from "react";
-import Coder from "../data/Code typing-bro.svg";
-import Particle from "./particle";
+import Coder from "../data/Code typing-bro.svg"; 
 import Type from "./type";
 import Coder2 from "../data/Developer activity-bro.svg";
 import Stack from "@mui/material/Stack";
@@ -14,10 +13,11 @@ function Home() {
   const openWindow = (page) => window.open(page);
 
   return (
-    <>
-      <Particle />
-      <div className="container" id="home">
-        <div className="row ">
+    <> 
+      <div className="container-fluid" id="home" >
+        <div className="row my-auto" style={{height:"100vh"}}>
+        
+
           <img
             className="col-7 col-md-6 p-0  d-lg-none mx-auto "
             src={Coder}
@@ -95,6 +95,8 @@ function Home() {
           </div>
 
           <img className="col-5 d-none d-lg-block" src={Coder2} alt="null" />
+          
+       
         </div>
       </div>
     </>

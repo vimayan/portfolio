@@ -1,9 +1,13 @@
-#home {
+ #page {
+  z-index: 10000;
+}  
+
+/* #home {
   position: absolute;
   top: 0px;
   left: 0px;
   right: 0px;
-}
+} */
 
 #name,
 #profession {
@@ -50,29 +54,28 @@
   text-align: justify;
 }
 
-#about {
-  position: absolute;
-
-  left: 0px;
-  right: 0px;
-}
-
-#techstack {
+/* #about {
   position: absolute;
   left: 0px;
   right: 0px;
-}
+} */
+
+/* #techstack {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+} */
 
 #techstack #icons img:hover {
   cursor: pointer;
   scale: 1.5;
 }
 
-#deploys {
+/* #deploys {
   position: absolute;
   left: 0px;
   right: 0px;
-}
+} */
 #deploys .sites {
   position: relative;
 }
@@ -102,7 +105,7 @@
   display: block;
 }
 
-#github {
+/* #github {
   position: absolute;
   left: 0px;
   right: 0px;
@@ -111,9 +114,9 @@
   position: absolute;
   padding-top: 10px;
   padding-bottom: 8px;
-}
+} */
 
-@media screen and (min-width: 992px) {
+/* @media screen and (min-width: 992px) {
   #home {
     margin-top: 15vh;
   }
@@ -204,4 +207,4 @@
   #footer {
     top:5300px;
   }
-}
+} */
