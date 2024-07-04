@@ -19,8 +19,12 @@ function App() {
           <Deploys />
           <TechStack />
           <GitHub/>
-          <Footer/>
+        
           <Guider /> 
+        </div>
+        <div className="row mt-5" id="footer_home">
+           
+        <Footer/>
         </div>
         <Particle />
       </div>
