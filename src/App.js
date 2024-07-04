@@ -22,7 +22,7 @@ function App() {
         
           <Guider /> 
         </div>
-        <div className="row mt-5" id="footer_home">
+        <div className="row mt-5 mx-0 px-0" id="footer_home">
            
         <Footer/>
         </div>
