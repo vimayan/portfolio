@@ -67,7 +67,7 @@ function Home() {
                 <Fab
                   color="secondary"
                   onClick={() =>
-                    openWindow("https://www.linkedin.com/in/villavan-eng2016/")
+                    openWindow("https://www.linkedin.com/in/villavanm/")
                   }
                 >
                   <LinkedInIcon />
