@@ -3,8 +3,10 @@ import Ticket from "../data/Ticket.jpg";
 // import VegSite from "../data/vegsite.jpeg";
 import ShoutOut from "../data/ShouOut.png";
 import ClonedApp from "../data/ClonedApp.jpeg";
+import Glogin from "../data/Glogin.jpeg";
 import Fitness from "../data/fitness-logger.jpeg";
 import Shortner from "../data/shortner.png";
+import Pos from "../data/pos.png";
 import SpaceX from "../data/spacex.png";
 import Warehouse from "../data/warehouse.png";
 import GitHubIcon from "@mui/icons-material/GitHub";
@@ -12,9 +14,15 @@ import LaunchIcon from "@mui/icons-material/Launch";
 
 function Deploys() {
   const sites = [
-
     {
-      name:'Warehouse',  
+      name:'AWS-Pos',  
+      text:"badge text-dark text-decoration-underline fs-4",
+      img: Pos, 
+      launch: "http://ec2-3-26-28-162.ap-southeast-2.compute.amazonaws.com",
+      size: { color: "black", marginX: "3px" },
+    },
+    {
+      name:'AWS-Warehouse',  
       text:"badge text-dark text-decoration-underline fs-4",
       img: Warehouse, 
       launch: "http://ec2-3-26-28-162.ap-southeast-2.compute.amazonaws.com:63225/login",
@@ -40,16 +48,7 @@ function Deploys() {
       launch: "https://guvi-hackathon2-frontend-villavan.netlify.app",
       size: { color: "black", marginX: "3px" },
     },
-    // {
-    //   name:'Tiny Url',      
-    //   text:"badge text-black text-decoration-underline fs-4",
-    //   img: Shortner,
-    //   front:
-    //     "https://github.com/vimayan/GUVI-Tasks/tree/main/url-shortner/client",
-    //   back: "https://github.com/vimayan/GUVI-Tasks/tree/main/url-shortner/server",
-    //   launch: "https://tinyshortner.netlify.app",
-    //   size: { color: "black", marginX: "3px" },
-    // },
+   
    
     {
       name:'ShoutOut',
@@ -60,7 +59,17 @@ function Deploys() {
       launch: "https://gossip-shoutouts.netlify.app/",
       size: { color: "black", marginX: "3px" },
     },
-    
+
+     {
+      name:'Tiny Url',      
+      text:"badge text-black text-decoration-underline fs-4",
+      img: Shortner,
+      front:
+        "https://github.com/vimayan/GUVI-Tasks/tree/main/url-shortner/client",
+      back: "https://github.com/vimayan/GUVI-Tasks/tree/main/url-shortner/server",
+      launch: "https://tinyshortner.netlify.app",
+      size: { color: "black", marginX: "3px" },
+    },
     {
       name:'SpaceX-clone',      
       text:"badge text-decoration-underline fs-4",
@@ -69,13 +78,14 @@ function Deploys() {
       launch: "https://spacex-lazylode.netlify.app",
       size: { color: "#e3f2fd", marginX: "3px" },
     },
-    // {
-    //   img: VegSite,
-    //   front:
-    //     "https://github.com/vimayan/GUVI-Tasks/tree/main/react-tasks/task-3",
-    //   launch: "https://villavan-react-task3.netlify.app",
-    //   size: { color: "black", marginX: "3px" },
-    // },
+    {
+      name:'G-login',   
+      text:"badge text-black text-decoration-underline fs-4",   
+      img: Glogin,
+      front:"https://github.com/vimayan/GUVI-Tasks/tree/main/react-tasks/task-3",
+      launch: "https://openinapp-dashboard-task.netlify.app/",
+      size: { color: "black", marginX: "3px" },
+    },
     {
       name:"Inetriors-clone",
       text:"badge  text-decoration-underline fs-4",
