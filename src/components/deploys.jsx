@@ -1,36 +1,16 @@
 import React from "react";
-import Ticket from "../data/Ticket.jpg";
-// import VegSite from "../data/vegsite.jpeg";
-import ShoutOut from "../data/ShouOut.png";
-import ClonedApp from "../data/ClonedApp.jpeg";
-import Glogin from "../data/Glogin.jpeg";
-import Fitness from "../data/fitness-logger.jpeg";
-import Shortner from "../data/shortner.png";
-import Pos from "../data/pos.png";
-import SpaceX from "../data/spacex.png";
-import Warehouse from "../data/warehouse.png";
+import Ticket from "../data/Ticket.jpg"; 
+import ShoutOut from "../data/ShouOut.png";  
+import Fitness from "../data/fitness-logger.jpeg"; 
+import SpaceX from "../data/spacex.png"; 
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LaunchIcon from "@mui/icons-material/Launch";
 
 function Deploys() {
   const sites = [
     {
-      name:'AWS-Pos',  
-      text:"badge text-dark text-decoration-underline fs-4",
-      img: Pos, 
-      launch: "http://ec2-3-26-28-162.ap-southeast-2.compute.amazonaws.com",
-      size: { color: "black", marginX: "3px" },
-    },
-    {
-      name:'AWS-Warehouse',  
-      text:"badge text-dark text-decoration-underline fs-4",
-      img: Warehouse, 
-      launch: "http://ec2-3-26-28-162.ap-southeast-2.compute.amazonaws.com:63225/login",
-      size: { color: "black", marginX: "3px" },
-    },
-    {
-      name:'Fitness Logger',
-      text:"badge text-decoration-underline fs-4",
+      name: "Fitness Logger",
+      text: "badge text-decoration-underline fs-4",
       img: Fitness,
       front: "https://github.com/vimayan/Fitness_Logger_frontend",
       back: "https://github.com/vimayan/guvi-hackathon2-backend",
@@ -38,61 +18,24 @@ function Deploys() {
       size: { color: "black", marginX: "3px" },
     },
 
-   
     {
-      name:'Ticket New',
-      text:"badge text-decoration-underline fs-4",
+      name: "Ticket New",
+      text: "badge text-decoration-underline fs-4",
       img: Ticket,
       front: "https://github.com/vimayan/guvi-hackathon2-frontend",
       back: "https://github.com/vimayan/guvi-hackathon2-backend",
       launch: "https://guvi-hackathon2-frontend-villavan.netlify.app",
       size: { color: "black", marginX: "3px" },
     },
-   
-   
+
     {
-      name:'ShoutOut',
-      text:"badge text-decoration-underline fs-4",
+      name: "ShoutOut",
+      text: "badge text-decoration-underline fs-4",
       img: ShoutOut,
       front: "https://github.com/vimayan/shoutout/tree/main/chatbox",
       back: "https://github.com/vimayan/shoutout/tree/main/chatserver",
       launch: "https://gossip-shoutouts.netlify.app/",
       size: { color: "black", marginX: "3px" },
-    },
-
-     {
-      name:'Tiny Url',      
-      text:"badge text-black text-decoration-underline fs-4",
-      img: Shortner,
-      front:
-        "https://github.com/vimayan/GUVI-Tasks/tree/main/url-shortner/client",
-      back: "https://github.com/vimayan/GUVI-Tasks/tree/main/url-shortner/server",
-      launch: "https://tinyshortner.netlify.app",
-      size: { color: "black", marginX: "3px" },
-    },
-    {
-      name:'SpaceX-clone',      
-      text:"badge text-decoration-underline fs-4",
-      img: SpaceX,
-      front: "https://github.com/vimayan/spacex-clone",
-      launch: "https://spacex-lazylode.netlify.app",
-      size: { color: "#e3f2fd", marginX: "3px" },
-    },
-    {
-      name:'G-login',   
-      text:"badge text-black text-decoration-underline fs-4",   
-      img: Glogin,
-      front:"https://github.com/vimayan/GUVI-Tasks/tree/main/react-tasks/task-3",
-      launch: "https://openinapp-dashboard-task.netlify.app/",
-      size: { color: "black", marginX: "3px" },
-    },
-    {
-      name:"Inetriors-clone",
-      text:"badge  text-decoration-underline fs-4",
-      img: ClonedApp,
-      front: "https://github.com/vimayan/job-clone",
-      launch: "https://villavan-react-training.netlify.app",
-      size: { color: "lime", marginX: "3px" },
     },
   ];
   return (
@@ -110,16 +53,20 @@ function Deploys() {
             <div key={index} className="col-12 col-md-4 p-0 sites">
               <img src={site.img} className="img-fluid h-100" alt="..." />
               <div className="icons">
-              <h4 className={site.text}>{site.name} </h4>
+                <h4 className={site.text}>{site.name} </h4>
                 <p className="text">
-                 {site.front? <a  href={site.front}  target="_blank" rel="noopener">
-                    <b className="me-2 badge bg-primary">Front end</b>
-                    <GitHubIcon fontSize="large" sx={site.size} />
-                  </a>:<></>}
+                  {site.front ? (
+                    <a href={site.front} target="_blank" rel="noopener">
+                      <b className="me-2 badge bg-primary">Front end</b>
+                      <GitHubIcon fontSize="large" sx={site.size} />
+                    </a>
+                  ) : (
+                    <></>
+                  )}
 
                   <br />
                   {site.back ? (
-                    <a  href={site.back}  target="_blank" rel="noopener">
+                    <a href={site.back} target="_blank" rel="noopener">
                       <b className="me-2 badge bg-primary">Back end</b>
                       <GitHubIcon fontSize="large" sx={site.size} />
                     </a>
@@ -128,7 +75,7 @@ function Deploys() {
                   )}
                 </p>
                 <p className="text">
-                  <a  href={site.launch}  target="_blank" rel="noopener">
+                  <a href={site.launch} target="_blank" rel="noopener">
                     <b className="me-2 badge bg-primary">Live Site</b>
                     <LaunchIcon fontSize="large" sx={site.size} />
                   </a>
