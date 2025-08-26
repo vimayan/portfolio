@@ -11,8 +11,12 @@ import Aws from "../data/Aws.png";
 import Postman from "../data/Postman.png";
 import Api from "../data/API-amico.svg";
 import Php from "../data/php.png";
-import Laravel from "../data/Laravel-1.jpg";
-
+import MySQL from "../data/MySQL.png";
+import Linux from "../data/Linux.png";
+import Docker from "../data/docker.svg";
+import K8s from "../data/K8s.webp";
+import Jenkins from "../data/Jenkins.png";
+import Java from "../data/Java.png"; 
 function TechStack() {
   return (
     <>
@@ -29,103 +33,156 @@ function TechStack() {
         </div>
         <div className="row ms-sm-5 ps-5  my-4">
           <div className=" col col-md-4 row gap-2  mx-4 my-4" id="icons">
-            <div className="col-4 col-sm-4 col-md-5 col-lg-4 ">
-             
-                <img
-                  className="col-8 col-sm-6 col-md-12 col-lg-8"
-                  src={Html}
-                  alt="null"
-                />
-          
-             
+            {/* Es6 */}
+            <div className=" col-4 col-sm-4 col-md-5 col-lg-4">
+              <img
+                className="col-8 col-sm-6 col-md-12 col-lg-8 rounded-2 "
+                src={Es6}
+                alt="null"
+              />
             </div>
 
+            {/* NodeJS */}
             <div className="col-4 col-sm-4 col-md-5 col-lg-4">
               <img
-                  className="col-8 col-sm-6 col-md-12 col-lg-8"
-                  src={Css}
-                  alt="null"
-                />
-        
-    
+                className="col-8 col-sm-6 col-md-12 col-lg-8 rounded-2 "
+                src={NodeJS}
+                alt="null"
+              />
             </div>
 
-            <div className=" col-4 col-sm-4 col-md-5 col-lg-4">
-            <img
-                  className="col-8 col-sm-6 col-md-12 col-lg-8 rounded-2 "
-                  src={Es6}
-                  alt="null"
-                />
+            {/* Html */}
+            <div className="col-4 col-sm-4 col-md-5 col-lg-4 ">
+              <img
+                className="col-8 col-sm-6 col-md-12 col-lg-8"
+                src={Html}
+                alt="null"
+              />
             </div>
 
+            {/* MySQL */}
             <div className="col-4 col-sm-4 col-md-5 col-lg-4">
-            <img
-                  className="col-8 col-sm-6 col-md-12 col-lg-8"
-                  src={Bootstrap}
-                  alt="null"
-                />
+              <img
+                className="col-8 col-sm-6 col-md-12 col-lg-8 rounded-2 "
+                src={MySQL}
+                alt="null"
+              />
             </div>
 
+            {/* Css */}
             <div className="col-4 col-sm-4 col-md-5 col-lg-4">
-            <img
-                  className="col-8 col-sm-6 col-md-12 col-lg-8 rounded-2 "
-                  src={NodeJS}
-                  alt="null"
-                />
+              <img
+                className="col-8 col-sm-6 col-md-12 col-lg-8"
+                src={Css}
+                alt="null"
+              />
             </div>
 
+            {/* MongoDB */}
             <div className="col-4 col-sm-4 col-md-5 col-lg-4">
-            <img
-                  className="col-8 col-sm-6 col-md-12 col-lg-8 rounded-2 "
-                  src={ReactJS}
-                  alt="null"
-                />
+              <img
+                className="col-8 col-sm-6 col-md-12 col-lg-8 rounded-2 "
+                src={MongoDB}
+                alt="null"
+              />
+            </div>
+            {/* Bootstrap */}
+            <div className="col-4 col-sm-4 col-md-5 col-lg-4">
+              <img
+                className="col-8 col-sm-6 col-md-12 col-lg-8"
+                src={Bootstrap}
+                alt="null"
+              />
             </div>
 
+            {/* Aws */}
             <div className="col-4 col-sm-4 col-md-5 col-lg-4">
-            <img
-                  className="col-8 col-sm-6 col-md-12 col-lg-8 rounded-2 "
-                  src={MongoDB}
-                  alt="null"
-                />
+              <img
+                className="col-8 col-sm-6 col-md-12 col-lg-8 rounded-2 "
+                src={Aws}
+                alt="null"
+              />
             </div>
 
+            {/* ReactJS */}
             <div className="col-4 col-sm-4 col-md-5 col-lg-4">
-            <img
-                  className="col-8 col-sm-6 col-md-12 col-lg-8 rounded-2 "
-                  src={Redux}
-                  alt="null"
-                />
+              <img
+                className="col-8 col-sm-6 col-md-12 col-lg-8 rounded-2 "
+                src={ReactJS}
+                alt="null"
+              />
             </div>
 
+            {/* Linux */}
             <div className="col-4 col-sm-4 col-md-5 col-lg-4">
-            <img
-                  className="col-8 col-sm-6 col-md-12 col-lg-8 rounded-2 "
-                  src={Postman}
-                  alt="null"
-                />
+              <img
+                className="col-8 col-sm-6 col-md-12 col-lg-8 rounded-2 "
+                src={Linux}
+                alt="null"
+              />
             </div>
 
+            {/* Redux */}
             <div className="col-4 col-sm-4 col-md-5 col-lg-4">
-            <img
-                  className="col-8 col-sm-6 col-md-12 col-lg-8 rounded-2 "
-                  src={Aws}
-                  alt="null"
-                />
+              <img
+                className="col-8 col-sm-6 col-md-12 col-lg-8 rounded-2 "
+                src={Redux}
+                alt="null"
+              />
             </div>
+
+            {/* Docker */}
             <div className="col-4 col-sm-4 col-md-5 col-lg-4">
-            <img
-                  className="col-8 col-sm-6 col-md-12 col-lg-8 rounded-2 "
-                  src={Php}
-                  alt="null"
-                />
+              <img
+                className="col-8 col-sm-6 col-md-12 col-lg-8 rounded-2 "
+                src={Docker}
+                alt="null"
+              />
             </div>
+
+            {/* Postman */}
             <div className="col-4 col-sm-4 col-md-5 col-lg-4">
-            <img
-                  className="col-8 col-sm-6 col-md-12 col-lg-8 rounded-2 "
-                  src={Laravel}
-                  alt="null"
-                />
+              <img
+                className="col-8 col-sm-6 col-md-12 col-lg-8 rounded-2 "
+                src={Postman}
+                alt="null"
+              />
+            </div>
+
+            {/* Kubernetes */}
+            <div className="col-4 col-sm-4 col-md-5 col-lg-4">
+              <img
+                className="col-8 col-sm-6 col-md-12 col-lg-8 rounded-2 "
+                src={K8s}
+                alt="null"
+              />
+            </div>
+
+            {/* Php */}
+            <div className="col-4 col-sm-4 col-md-5 col-lg-4">
+              <img
+                className="col-8 col-sm-6 col-md-12 col-lg-8 rounded-2 "
+                src={Php}
+                alt="null"
+              />
+            </div>
+
+            {/* Java */}
+            {/* <div className="col-4 col-sm-4 col-md-5 col-lg-4">
+              <img
+                className="col-8 col-sm-6 col-md-12 col-lg-8 rounded-2 "
+                src={Java} 
+                alt="null"
+              />
+            </div> */}
+
+            {/* Jenkins */}
+            <div className="col-4 col-sm-4 col-md-5 col-lg-4">
+              <img
+                className="col-8 col-sm-6 col-md-12 col-lg-8 rounded-2 "
+                src={Jenkins}
+                alt="null"
+              />
             </div>
           </div>
 
