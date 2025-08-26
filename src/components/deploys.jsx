@@ -1,8 +1,9 @@
 import React from "react";
-import Ticket from "../data/Ticket.jpg"; 
-import ShoutOut from "../data/ShouOut.png";  
-import Fitness from "../data/fitness-logger.jpeg"; 
-import SpaceX from "../data/spacex.png"; 
+import Ticket from "../data/Ticket.jpg";
+import ShoutOut from "../data/ShouOut.png";
+import RtcChat from "../data/rtc.jpg";
+import Fitness from "../data/fitness-logger.jpeg";
+import SpaceX from "../data/spacex.png";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LaunchIcon from "@mui/icons-material/Launch";
 
@@ -19,22 +20,32 @@ function Deploys() {
     },
 
     {
+      name: "SocketChat",
+      text: "badge text-decoration-underline fs-4",
+      img: ShoutOut,
+      front: "https://github.com/vimayan/shoutout/tree/main/chatbox",
+      back: "https://github.com/vimayan/shoutout/tree/main/chatserver",
+      launch: "https://gossip-shoutouts.netlify.app/",
+      size: { color: "black", marginX: "3px" },
+    },
+
+    {
+      name: "PeerToPeer",
+      text: "badge text-black text-decoration-underline fs-4",
+      img: RtcChat,
+      front: "https://github.com/vimayan/ChatRtc/tree/main/client/",
+      back: "https://github.com/vimayan/ChatRtc/tree/main/server/",
+      launch: "https://peertopeer-rtc.netlify.app/",
+      size: { color: "black", marginX: "3px" },
+    },
+
+    {
       name: "Ticket New",
       text: "badge text-decoration-underline fs-4",
       img: Ticket,
       front: "https://github.com/vimayan/guvi-hackathon2-frontend",
       back: "https://github.com/vimayan/guvi-hackathon2-backend",
       launch: "https://guvi-hackathon2-frontend-villavan.netlify.app",
-      size: { color: "black", marginX: "3px" },
-    },
-
-    {
-      name: "ShoutOut",
-      text: "badge text-decoration-underline fs-4",
-      img: ShoutOut,
-      front: "https://github.com/vimayan/shoutout/tree/main/chatbox",
-      back: "https://github.com/vimayan/shoutout/tree/main/chatserver",
-      launch: "https://gossip-shoutouts.netlify.app/",
       size: { color: "black", marginX: "3px" },
     },
   ];
